@@ -1,82 +1,53 @@
-# =========================
 # Python
-# =========================
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
 *.so
 
-# =========================
 # Virtual environments
-# =========================
 .venv/
 venv/
 env/
-ENV/
 
-# =========================
-# uv
-# =========================
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# uv / Python version management
 .python-version
 
-# Keep uv.lock tracked
-# Do NOT ignore uv.lock
-
-# =========================
-# Dataset
-# =========================
-dataset/
-*.tsv
-*.csv
-
-# =========================
-# Generated reports / outputs
-# =========================
-eda_report/
-output/
-outputs/
-results/
-artifacts/
-
-# =========================
-# Jupyter
-# =========================
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# =========================
 # IDE
-# =========================
-.vscode/
 .idea/
-
-# =========================
-# macOS
-# =========================
-.DS_Store
-
-# =========================
-# Environment / secrets
-# =========================
-.env
-.env.*
-!.env.example
-
-# =========================
-# Logs
-# =========================
-*.log
-
-# =========================
-# Temporary files
-# =========================
-*.tmp
-*.temp
+.vscode/
 *.swp
 *.swo
-
-# =========================
-# OS / editor backup files
-# =========================
 *~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / distribution
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (large files)
+dataset/
+
+# EDA reports (generated)
+eda_report/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp

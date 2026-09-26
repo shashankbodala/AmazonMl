@@ -1,0 +1,59 @@
+{
+  "avg_candidates_per_s1": 10.783751696449407,
+  "build_index_time_sec": 313.14382886886597,
+  "generate_candidates_time_sec": 22.848501920700073,
+  "max_candidates_per_s1": 476,
+  "median_candidates_per_s1": 2,
+  "p95_candidates_per_s1": 64,
+  "s1_multi_candidates": 244286,
+  "s1_one_candidate": 103729,
+  "s1_zero_candidates": 93348,
+  "s2_index_stats": {
+    "address_country_index": {
+      "total_entries": 106443,
+      "unique_keys": 75235
+    },
+    "address_index": {
+      "total_entries": 106443,
+      "unique_keys": 75235
+    },
+    "name_country_index": {
+      "total_entries": 438874,
+      "unique_keys": 163902
+    },
+    "name_index": {
+      "total_entries": 440345,
+      "unique_keys": 163920
+    },
+    "source": "TRAIN_SOURCE2",
+    "total_entities": 5034616
+  },
+  "s2_recall": 0.3325768371422037,
+  "s3_index_stats": {
+    "address_country_index": {
+      "total_entries": 38710,
+      "unique_keys": 37571
+    },
+    "address_index": {
+      "total_entries": 38710,
+      "unique_keys": 37571
+    },
+    "name_country_index": {
+      "total_entries": 488480,
+      "unique_keys": 172161
+    },
+    "name_index": {
+      "total_entries": 491078,
+      "unique_keys": 172163
+    },
+    "source": "TRAIN_SOURCE3",
+    "total_entities": 5285603
+  },
+  "s3_recall": 0.2848974590857376,
+  "total_candidate_pairs": 4759549,
+  "total_s1_evaluated": 441363,
+  "total_s2_candidates": 2306603,
+  "total_s3_candidates": 2452946,
+  "total_time_sec": 351.5513598918915,
+  "true_match_recall": 0.30796477559171115
+}

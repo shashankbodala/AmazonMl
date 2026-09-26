@@ -1,0 +1,36 @@
+{
+  "both_s2_and_s3_count": 1776047,
+  "max_s2_matches": 5,
+  "max_s3_matches": 6,
+  "max_total_matches": 11,
+  "mean_total_matches": 3.4612526344456573,
+  "neither_count": 123247,
+  "only_s2_count": 143029,
+  "only_s3_count": 164498,
+  "s2_match_count_distribution": {
+    "0": 287745,
+    "1": 789108,
+    "2": 652779,
+    "3": 333957,
+    "4": 119078,
+    "5": 24154
+  },
+  "s3_match_count_distribution": {
+    "0": 266276,
+    "1": 716417,
+    "2": 668375,
+    "3": 372443,
+    "4": 145116,
+    "5": 35378,
+    "6": 2816
+  },
+  "total_bucket_counts": {
+    "0": 123247,
+    "1": 119157,
+    ">1": 1964417
+  },
+  "total_links": 7638365,
+  "total_s1_entities": 2206821,
+  "total_s2_links": 3693619,
+  "total_s3_links": 3944746
+}
